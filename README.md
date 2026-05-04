@@ -39,12 +39,12 @@ Passo a Passo
 Clone o repositório:
 
 Bash
-git clone https://github.com/seu-usuario/turismo.git
-cd Turismo
+git clone https://github.com/crrsj/turismo-api.git
+
 Suba os containers (API + Banco de Dados):
 
 Bash
-    docker-compose up --build
+    docker-compose up -d --build
     ```
 
 A API estará disponível em: `http://localhost:8080`
